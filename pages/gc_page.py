@@ -10,10 +10,6 @@ class GC_page(Base): # Graphic cards page
     lowest_price = None
     product_name = None
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
 
 # Locators
     gc_header = "//h1[text()='Grafičke kartice']" # h1 - заголовок на странице с видеокартами, проверки по соответствию текста заголовка достаточно, чтобы убедиться, что мы действительно на странице с графическими картами
