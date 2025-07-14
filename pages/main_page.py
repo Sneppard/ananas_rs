@@ -8,10 +8,6 @@ class Main_page(Base):
 
     url = 'https://ananas.rs/'
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
 # Locators
     agree_with_cookies_button = "//button[text()[contains(.,'Slažem se')]]"
     all_categories_menu = "//button[@title='Dugme za meni kategorija']"
