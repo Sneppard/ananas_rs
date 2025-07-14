@@ -5,10 +5,6 @@ from base.base_class import Base
 
 class Item_page(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
 # Locators
     add_to_cart_button = "//button[text()='Dodaj u korpu']"
     go_to_cart_button = "//button[text()='Pregledaj korpu']"
