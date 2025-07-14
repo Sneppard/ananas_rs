@@ -7,10 +7,6 @@ from pages.gc_page import GC_page
 
 class Cart_page(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
 # Locators
 
 # Getters
