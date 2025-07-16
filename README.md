@@ -3,7 +3,7 @@ Using selenium, tkinter, pytest on Python.
 
 In current form it's doing:
 - open main page of online shop ananas.rs
-- navigate throw menus to Graphic cards page
+- navigate through menus to Graphic cards page
 - check few checkbox filters and sort by price
 - get lowest price of sorted items and name of product with lowest price into variables for farther comparison in the cart
 - go to lowest price product page
